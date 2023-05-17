@@ -1,0 +1,513 @@
+gitpod /workspace/exercise-terminal-challenge (master) $ ls
+assets      index.js    node_modules  package-lock.json  README.es.md  server.js  thecmdchallenge  webpack.config.js
+index.html  learn.json  package.json  preview.png        README.md     slides     Untitled
+gitpod /workspace/exercise-terminal-challenge (master) $ pwd
+/workspace/exercise-terminal-challenge
+gitpod /workspace/exercise-terminal-challenge (master) $ cd thecmdchallenge/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ pwd
+/workspace/exercise-terminal-challenge/thecmdchallenge
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls -a
+.  ..  boringfolder  console_master.md  funcode  kamehameha  small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ echo *
+boringfolder console_master.md funcode kamehameha small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ echo sm*
+small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls -r
+small-name  kamehameha  funcode  console_master.md  boringfolder
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls -R
+.:
+boringfolder  console_master.md  funcode  kamehameha  small-name
+
+./boringfolder:
+babel.png               c9.png    dropzone.js        hello.txt  jquery.png  sass.png      webpack.png
+breathecode.shadow.png  css3.png  event-more-boring  html5.png  js.png      scale.fix.js
+
+./boringfolder/event-more-boring:
+i-can-believe-how-boring
+
+./boringfolder/event-more-boring/i-can-believe-how-boring:
+the-ulrimate-boring-inception
+
+./boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception:
+myfirstcopy.txt  the-mostboring-text.txt
+
+./funcode:
+baby.jpg             images           regexer.js
+baby.success.1.jpg   invalid.png      rigoberto.1.jpg
+baby.success.jpg     keyboard.1.html  rigoberto.jpg
+borat.success.1.jpg  keyboard.html    scared-baby.1.jpg
+borat.success.jpg    kids.1.jpg       scared-baby.jpg
+einstein.1.png       kids.jpg         script.js
+einstein.png         mouse.1.html     the-most-funny
+forms.1.html         mouse.html       valid.png
+forms.html           regexer.1.css    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+frame.1.html         regexer.1.js
+frame.html           regexer.css
+
+./funcode/images:
+hello
+
+./funcode/images/hello:
+invalid.png
+
+./funcode/the-most-funny:
+lol
+
+./funcode/the-most-funny/lol:
+the-ultimate-joke.txt
+
+./kamehameha:
+dragon-ball-jokes.md
+
+./small-name:
+bigger-name-than-before
+
+./small-name/bigger-name-than-before:
+omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type
+
+./small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type:
+this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious
+
+./small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious:
+trophy.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls -R -a
+.:
+.  ..  boringfolder  console_master.md  funcode  kamehameha  small-name
+
+./boringfolder:
+.   babel.png               c9.png    dropzone.js        hello.txt  jquery.png  sass.png      webpack.png
+..  breathecode.shadow.png  css3.png  event-more-boring  html5.png  js.png      scale.fix.js
+
+./boringfolder/event-more-boring:
+.  ..  i-can-believe-how-boring
+
+./boringfolder/event-more-boring/i-can-believe-how-boring:
+.  ..  the-ulrimate-boring-inception
+
+./boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception:
+.  ..  myfirstcopy.txt  the-mostboring-text.txt
+
+./funcode:
+.                    frame.1.html     regexer.1.js
+..                   frame.html       regexer.css
+baby.jpg             images           regexer.js
+baby.success.1.jpg   invalid.png      rigoberto.1.jpg
+baby.success.jpg     keyboard.1.html  rigoberto.jpg
+borat.success.1.jpg  keyboard.html    scared-baby.1.jpg
+borat.success.jpg    kids.1.jpg       scared-baby.jpg
+einstein.1.png       kids.jpg         script.js
+einstein.png         mouse.1.html     the-most-funny
+forms.1.html         mouse.html       valid.png
+forms.html           regexer.1.css    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+
+./funcode/images:
+.  ..  hello
+
+./funcode/images/hello:
+.  ..  invalid.png
+
+./funcode/the-most-funny:
+.  ..  lol
+
+./funcode/the-most-funny/lol:
+.  ..  the-ultimate-joke.txt
+
+./kamehameha:
+.  ..  dragon-ball-jokes.md
+
+./small-name:
+.  ..  bigger-name-than-before
+
+./small-name/bigger-name-than-before:
+.  ..  omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type
+
+./small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type:
+.
+..
+this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious
+
+./small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious:
+.  ..  trophy.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ find *
+boringfolder
+boringfolder/babel.png
+boringfolder/breathecode.shadow.png
+boringfolder/c9.png
+boringfolder/css3.png
+boringfolder/dropzone.js
+boringfolder/event-more-boring
+boringfolder/event-more-boring/i-can-believe-how-boring
+boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception
+boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception/myfirstcopy.txt
+boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception/the-mostboring-text.txt
+boringfolder/hello.txt
+boringfolder/html5.png
+boringfolder/jquery.png
+boringfolder/js.png
+boringfolder/sass.png
+boringfolder/scale.fix.js
+boringfolder/webpack.png
+console_master.md
+funcode
+funcode/baby.jpg
+funcode/baby.success.1.jpg
+funcode/baby.success.jpg
+funcode/borat.success.1.jpg
+funcode/borat.success.jpg
+funcode/einstein.1.png
+funcode/einstein.png
+funcode/forms.1.html
+funcode/forms.html
+funcode/frame.1.html
+funcode/frame.html
+funcode/images
+funcode/images/hello
+funcode/images/hello/invalid.png
+funcode/invalid.png
+funcode/keyboard.1.html
+funcode/keyboard.html
+funcode/kids.1.jpg
+funcode/kids.jpg
+funcode/mouse.1.html
+funcode/mouse.html
+funcode/regexer.1.css
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ s
+bash: s: command not found
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ cd small-name/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ ls
+bigger-name-than-before
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ cd bigger-name-than-before/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before (master) $ ls
+omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before (master) $ cd omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (master) $ find
+.
+./this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious
+./this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (master) $ ^C
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (master) $ echo ./this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt
+./this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (master) $ echo "$(<./this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt )"
+MMMMMMMMMMMNhoooooooooosyymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdysooo++oo+ooymMMMMMMMM
+MMMMMMMMMMNsohMMMMMMMNNmho/hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNsohdmNMMMMMMMdo+dMMMMMMM
+MMMMMMMMMMh+yMMMMMMMMMMMMs++NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm+oMMMMMMMMMMMMho/MMMMMMM
+MMMMMMMMMMs+hMMMMMMMMMMMMy+/NMMMMMNNNmmddddddddddhhhhhhhhdddmmmmNNNMMMMMMMMd+oMMMMMMMMMMMMmo/dMMMMMM
+MMMMMMMMMMy+hMMMMMMMMMMMMh+/dNhysssoooooooooooo++++++++++ooooossssssyyhhdNMy+yMMMMMMMMMMMMdo/dMMMMMM
+MMMMMMMMMMh+sMMMMMMMMMMMMNho++oossoooooooo+++++/////////++++++ooooooosssooo+yNMMMMMMMMMMMMy+/NMMMMMM
+MMMMMMMMMMNo+mMMMMMMMMMMMMMMNmossssooooo++++++///////////+++++ooooooosysodmNMMMMMMMMMMMMMNs+oMMMMMMM
+MMMMMMMMMMMy+oMMMMMMMMMMMMMMMmoossoooooo++++++///////////+++++ooooooosssomMMMMMMMMMMMMMMMh+/mMMMMMMM
+MMMMMMMMMMMNo/hMMMMMMMMMMMMMMmoossoooooo+++++////////////+++++++++++osso+mMMMMMMMMMMMMMMmo/yMMMMMMMM
+MMMMMMMMMMMMd++dMMMMMMMMMMMMMNoossoo+++++++++////////////+++++++++++osso+mMMMMMMMMMMMMMNs/+NMMMMMMMM
+MMMMMMMMMMMMMh++mMMMMMMMMMMMMmoooso++++++++++////////////+++++++++++osso+NMMMMMMMMMMMMNy++mMMMMMMMMM
+MMMMMMMMMMMMMMy/+mMMMMMMMMMMMNo+ooo+++++++++++///////////+++++++++++oso++NMMMMMMMMMMMMy//mMMMMMMMMMM
+MMMMMMMMMMMMMMMy//dMMMMMMMMMMNo++o++++++++++++///////////+++++++++/+ooo+oNMMMMMMMMMMMy//mMMMMMMMMMMM
+MMMMMMMMMMMMMMMMh+/hMMMMMMMMMMs+++++++//+++++++/////////+++++++////+oo+/sMMMMMMMMMMNs/+mMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMh+/yMMMMMMMMMy/+++//////+++++++///////+++++++/////+oo+/yMMMMMMMMMNo/oNMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMmo/+mMMMMMMMm//++///////++++++++///+++++++++/////+o+//mMMMMMMMMd+/yMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMNy//yNMMMMMMo///////////++++++++++++++++++//////+o//oMMMMMMMNs/+mMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMdo/+dMMMMMd///////////////////////////////::/+++//dMMMMMNh//yNMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMNh+:omMMMMs/////:::::::::::::::::::::::::::/++/:sMMMMNh//sNMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMmy//omMMN+////::::::::::::::::::::::::::/++/:+NMMNh//smMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMmy//odMm/////:::::::::::::::::::::::::/+/:/mMms//smMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMNh+/+yh/////:::::::::::::::::::::::/+/::yh+/+hmMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNds+//::///::::::::::---------::/+/::/++ydNMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdyo/::/:::---------------:://::/oydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh/:::::-------------::/::/hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh+:---------------:::+hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmdso/:-------::/ohmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh:::---/dmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN/:::::sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+//:::dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs+//::NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd++/:+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdo+/:+NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNyoo+/:/odMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyo+/:/hNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo+/:oMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs+/:yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs+/:hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs+/:yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo+//sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMyoo+/+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmdhooo+/+oddmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhssyssoo++oosysydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhysoooooooooooooooooooshmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNhsoooooooooooooooooooooooooosymNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNmdhssooooooooooooooooossyyhdmNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNmmdddhhhhhhhhhdddmmNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddddyyyyyysssssssssssssssssyddddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddhy+++////:::::-----------/ohddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddy++++////:::::-------------hddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMdddddddddy++++////:::::-------------hddddddddddmMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMNdddddddddho+++////:::::-----------::hddddddddddmNMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNNmddddddddddoo+++++////////////////oddddddddddddmNNMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMddddddddddddddddddddddddddddddddddddddddddddddddddddddMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMNNNNNNNNmddddddddddddddddddddddddddddddddddddddddddddddddddddmNNNNNNNNMMMMMMMMMMMMM
+MMMMMMMMMMMMMNNNNNNNNNNNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNMMMMMMMMM
+MMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNMMMMMMMMMMMMMMM
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (master) $ cd .
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (master) $ ls
+this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type (master) $ cd ..
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before (master) $ ls
+omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before (master) $ cd ...
+bash: cd: ...: No such file or directory
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name/bigger-name-than-before (master) $ cd ..
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ ls
+bigger-name-than-before
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/small-name (master) $ cd ..
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ cd funcode
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             images           regexer.js
+baby.success.1.jpg   invalid.png      rigoberto.1.jpg
+baby.success.jpg     keyboard.1.html  rigoberto.jpg
+borat.success.1.jpg  keyboard.html    scared-baby.1.jpg
+borat.success.jpg    kids.1.jpg       scared-baby.jpg
+einstein.1.png       kids.jpg         script.js
+einstein.png         mouse.1.html     the-most-funny
+forms.1.html         mouse.html       valid.png
+forms.html           regexer.1.css    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+frame.1.html         regexer.1.js
+frame.html           regexer.css
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ echo *.js
+regexer.1.js regexer.js script.js
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ find *.js
+regexer.1.js
+regexer.js
+script.js
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls *.js
+regexer.1.js  regexer.js  script.js
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             images           regexer.js
+baby.success.1.jpg   invalid.png      rigoberto.1.jpg
+baby.success.jpg     keyboard.1.html  rigoberto.jpg
+borat.success.1.jpg  keyboard.html    scared-baby.1.jpg
+borat.success.jpg    kids.1.jpg       scared-baby.jpg
+einstein.1.png       kids.jpg         script.js
+einstein.png         mouse.1.html     the-most-funny
+forms.1.html         mouse.html       valid.png
+forms.html           regexer.1.css    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+frame.1.html         regexer.1.js
+frame.html           regexer.css
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ lsdir
+bash: lsdir: command not found
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls dir
+ls: cannot access 'dir': No such file or directory
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ cd the-most-funny/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode/the-most-funny (master) $ mkdir not-that-funny
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode/the-most-funny (master) $ cd ../.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             images           regexer.js
+baby.success.1.jpg   invalid.png      rigoberto.1.jpg
+baby.success.jpg     keyboard.1.html  rigoberto.jpg
+borat.success.1.jpg  keyboard.html    scared-baby.1.jpg
+borat.success.jpg    kids.1.jpg       scared-baby.jpg
+einstein.1.png       kids.jpg         script.js
+einstein.png         mouse.1.html     the-most-funny
+forms.1.html         mouse.html       valid.png
+forms.html           regexer.1.css    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+frame.1.html         regexer.1.js
+frame.html           regexer.css
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ cd ..
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ cd boringfolder/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ ls
+babel.png               c9.png    dropzone.js        hello.txt  jquery.png  sass.png      webpack.png
+breathecode.shadow.png  css3.png  event-more-boring  html5.png  js.png      scale.fix.js
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ find -R the-mostboring-text.txt
+find: unknown predicate `-R'
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ find the-mostboring-text.txt
+find: ‘the-mostboring-text.txt’: No such file or directory
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ find -rthe-mostboring-text.txt
+find: unknown predicate `-rthe-mostboring-text.txt'
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ find -r the-mostboring-text.txt
+find: unknown predicate `-r'
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ find . -name "*text.txt"
+./event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception/the-mostboring-text.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ cd ./event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (master) $ ls
+myfirstcopy.txt  the-mostboring-text.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (master) $ cp the-mostboring-text.txt lol.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (master) $ ls
+lol.txt  myfirstcopy.txt  the-mostboring-text.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (master) $ echo "$(<a lol.txt)"
+bash: a: No such file or directory
+
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (master) $ echo "$(<lol.txt)"
+Yes, you were right... the command line is the most boring thing...
+.
+.
+.
+.
+.
+.
+But you need to master it to be a developer.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (master) $ cd ..5
+bash: cd: ..5: No such file or directory
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (master) $ cd .. 5
+bash: cd: too many arguments
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception (master) $ cd ../../..
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/boringfolder (master) $ cd ..
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ cd funcode/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls
+baby.jpg             images           regexer.js
+baby.success.1.jpg   invalid.png      rigoberto.1.jpg
+baby.success.jpg     keyboard.1.html  rigoberto.jpg
+borat.success.1.jpg  keyboard.html    scared-baby.1.jpg
+borat.success.jpg    kids.1.jpg       scared-baby.jpg
+einstein.1.png       kids.jpg         script.js
+einstein.png         mouse.1.html     the-most-funny
+forms.1.html         mouse.html       valid.png
+forms.html           regexer.1.css    view-source_projects.breathecode.local_p_php_senior_msql_mysql-tester_.htm
+frame.1.html         regexer.1.js
+frame.html           regexer.css
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ mv kids.jpg images/hello/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ ls images/hello
+invalid.png  kids.jpg
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge/funcode (master) $ cd ../..
+gitpod /workspace/exercise-terminal-challenge (master) $ ls
+assets      index.js    node_modules  package-lock.json  README.es.md  server.js  thecmdchallenge  webpack.config.js
+index.html  learn.json  package.json  preview.png        README.md     slides     Untitled
+gitpod /workspace/exercise-terminal-challenge (master) $ cd thecmdchallenge/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rmdir small-name/
+rmdir: failed to remove 'small-name/': Directory not empty
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rmdir -rf small-name/
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rmdir --help
+Usage: rmdir [OPTION]... DIRECTORY...
+Remove the DIRECTORY(ies), if they are empty.
+
+      --ignore-fail-on-non-empty
+                  ignore each failure that is solely because a directory
+                    is non-empty
+  -p, --parents   remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is
+                    similar to 'rmdir a/b/c a/b a'
+  -v, --verbose   output a diagnostic for every directory processed
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/rmdir>
+or available locally via: info '(coreutils) rmdir invocation'
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ^C
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rmdir -r small-name/
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rmdir --ignore-fail-on-non-empty small-name/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rmdir -f small-name/
+rmdir: invalid option -- 'f'
+Try 'rmdir --help' for more information.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rmdir -rf small-name
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rmdir -rf .small-name
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls small-name/
+bigger-name-than-before
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rm -rf .small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha  small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rm -rf small-name
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ find *the-ultimate-joke.txt
+find: ‘*the-ultimate-joke.txt’: No such file or directory
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ find -R *the-ultimate-joke.txt
+find: unknown predicate `-R'
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ find -r *the-ultimate-joke.txt
+find: unknown predicate `-r'
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ find --help
+Usage: find [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]
+
+default path is the current directory; default expression is -print
+expression may consist of: operators, options, tests, and actions:
+operators (decreasing precedence; -and is implicit where no others are given):
+      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2
+      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2
+positional options (always true): -daystart -follow -regextype
+
+normal options (always true, specified before other expressions):
+      -depth --help -maxdepth LEVELS -mindepth LEVELS -mount -noleaf
+      --version -xdev -ignore_readdir_race -noignore_readdir_race
+tests (N can be +N or -N or N): -amin N -anewer FILE -atime N -cmin N
+      -cnewer FILE -ctime N -empty -false -fstype TYPE -gid N -group NAME
+      -ilname PATTERN -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN
+      -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE
+      -nouser -nogroup -path PATTERN -perm [-/]MODE -regex PATTERN
+      -readable -writable -executable
+      -wholename PATTERN -size N[bcwkMG] -true -type [bcdpflsD] -uid N
+      -used N -user NAME -xtype [bcdpfls]      -context CONTEXT
+
+actions: -delete -print0 -printf FORMAT -fprintf FILE FORMAT -print 
+      -fprint0 FILE -fprint FILE -ls -fls FILE -prune -quit
+      -exec COMMAND ; -exec COMMAND {} + -ok COMMAND ;
+      -execdir COMMAND ; -execdir COMMAND {} + -okdir COMMAND ;
+
+Valid arguments for -D:
+exec, opt, rates, search, stat, time, tree, all, help
+Use '-D help' for a description of the options, or see find(1)
+
+Please see also the documentation at https://www.gnu.org/software/findutils/.
+You can report (and track progress on fixing) bugs in the "find"
+program via the GNU findutils bug-reporting page at
+https://savannah.gnu.org/bugs/?group=findutils or, if
+you have no web access, by sending email to <bug-findutils@gnu.org>.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ find . -name "*the-ultimate-joke.txt"
+./funcode/the-most-funny/lol/the-ultimate-joke.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ^C
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ echo "$(<./funcode/the-most-funny/lol/the-ultimate-joke.txt)"
+what do you call a programmer from Findland? ..... NERDIC!
+
+Got it?? :)
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+boringfolder  console_master.md  funcode  kamehameha
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rmdir -rf boringfolder/
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ rm -rf boringfolder/
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+console_master.md  funcode  kamehameha
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi kamehameha/dragon-ball-jokes.md
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi kamehameha/dragon-ball-jokes.md
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ nano kamehameha/dragon-ball-jokes.md
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi kamehameha/dragon-ball-jokes.md
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi kamehameha/dragon-ball-jokes.md
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+console_master.md  funcode  kamehameha
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ touch misejercicios.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls
+console_master.md  funcode  kamehameha  misejercicios.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi misejercicios.txt 
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ echo "para salir de vi se usa ESC y luego :q" >> misejercicios.txt 
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi misejercicios.txt 
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ echo ls >>misejercicios.txt 
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi misejercicios.txt 
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls echo >>misejercicios.txt 
+ls: cannot access 'echo': No such file or directory
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ ls  >>misejercicios.txt 
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi misejercicios.txt 
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ history > history_for_print.txt
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ vi history_for_print.txt 
+gitpod /workspace/exercise-terminal-challenge/thecmdchallenge (master) $ 
