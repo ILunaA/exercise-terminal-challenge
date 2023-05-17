@@ -1,0 +1,6 @@
+para salir de vi se usa ESC y luego :q
+ls
+console_master.md
+funcode
+kamehameha
+misejercicios.txt

@@ -1,0 +1,110 @@
+    1  ls
+    2  pwd
+    3  cd thecmdchallenge/
+    4  pwd
+    5  ls -a
+    6  ls
+    7  echo *
+    8  echo sm*
+    9  ls -r
+   10  ls -R
+   11  ls -R -a
+   12  find *
+   13  s
+   14  ls
+   15  cd small-name/
+   16  ls
+   17  cd bigger-name-than-before/
+   18  ls
+   19  cd omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/
+   20  find
+   21  echo ./this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt
+   22  echo "$(<./this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt )"
+   23  cd .
+   24  ls
+   25  cd ..
+   26  ls
+   27  cd ...
+   28  cd ..
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd funcode
+   33  ls
+   34  echo *.js
+   35  find *.js
+   36  ls *.js
+   37  ls
+   38  lsdir
+   39  ls dir
+   40  cd the-most-funny/
+   41  mkdir not-that-funny
+   42  cd ../.
+   43  ls
+   44  cd ..
+   45  ls
+   46  cd boringfolder/
+   47  ls
+   48  find -R the-mostboring-text.txt
+   49  find the-mostboring-text.txt
+   50  find -rthe-mostboring-text.txt
+   51  find -r the-mostboring-text.txt
+   52  find . -name "*text.txt"
+   53  cd ./event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception/
+   54  ls
+   55  cp the-mostboring-text.txt lol.txt
+   56  ls
+   57  echo "$(<a lol.txt)"
+   58  echo "$(<lol.txt)"
+   59  cd ..5
+   60  cd .. 5
+   61  cd ../../..
+   62  cd ..
+   63  ls
+   64  cd funcode/
+   65  ls
+   66  mv kids.jpg images/hello/
+   67  ls images/hello
+   68  cd ../..
+   69  ls
+   70  cd thecmdchallenge/
+   71  ls
+   72  rmdir small-name/
+   73  rmdir -rf small-name/
+   74  rmdir --help
+   75  rmdir -r small-name/
+   76  rmdir --ignore-fail-on-non-empty small-name/
+   77* 
+   78  rmdir -f small-name/
+   79  rmdir -rf small-name
+   80  rmdir -rf .small-name
+   81  ls small-name/
+   82  rm -rf .small-name
+   83  ls
+   84  rm -rf small-name
+   85  ls
+   86  find *the-ultimate-joke.txt
+   87  find -R *the-ultimate-joke.txt
+   88  find -r *the-ultimate-joke.txt
+   89  find --help
+   90  find . -name "*the-ultimate-joke.txt"
+   91  echo "$(<./funcode/the-most-funny/lol/the-ultimate-joke.txt)"
+   92  ls
+   93  rmdir -rf boringfolder/
+   94  rm -rf boringfolder/
+   95  ls
+   96  vi kamehameha/dragon-ball-jokes.md
+   97  nano kamehameha/dragon-ball-jokes.md
+   98  vi kamehameha/dragon-ball-jokes.md
+   99  ls
+  100  touch misejercicios.txt
+  101  ls
+  102  vi misejercicios.txt 
+  103  echo "para salir de vi se usa ESC y luego :q" >> misejercicios.txt 
+  104  vi misejercicios.txt 
+  105  echo ls >>misejercicios.txt 
+  106  vi misejercicios.txt 
+  107  ls echo >>misejercicios.txt 
+  108  ls  >>misejercicios.txt 
+  109  vi misejercicios.txt 
+  110  history > history_for_print.txt
